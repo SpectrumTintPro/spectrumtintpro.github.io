@@ -10,7 +10,7 @@
 * 07.0 - Features
 * 08.0 - Gallery
 * 09.0 - Team Member
-* 10.0 - Testimonial
+* 10.0 - reviews
 * 11.0 - Subscribe
 * 12.0 - Contact us
 * 13.0 - Footer
@@ -511,12 +511,12 @@ a:hover {
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  10 - Testimonial
+//  10 - reviews
 /////////////////////////////////////////////////////////////////////*/
 
 
-#testimonial {
-    background: url(../img/bg3.jpeg);
+#reviews {
+    background: url(../img/bg3.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -546,10 +546,10 @@ a:hover {
     padding-top: 20px;
     color: #fff;
 }
-#testimonial .block-title {
+#reviews .block-title {
     color: #fff;
 }
-#testimonial .block-title span {
+#reviews .block-title span {
     border-color: #fff;
 }
 p.client-name {
@@ -867,5 +867,15 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 @media all and (max-width: 480px) {
     .btn-custom {
         padding: 5px 0px;
+    }
+    
+    #banner {
+        background-size: contain;
+        background-position: top center;
+        background-attachment: scroll;
+    }
+    
+    .headings {
+        padding: 15% 0 20% 0;
     }
 }
