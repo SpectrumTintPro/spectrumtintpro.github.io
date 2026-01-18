@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#3498db">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Primary Meta Tags -->
+    <title>Contact Us - Get Your Drone Photography Quote | Spectrum Drone Services</title>
+    <meta name="title" content="Contact Us - Get Your Drone Photography Quote | Spectrum Drone Services">
+    <meta name="description" content="Get a free quote for professional drone photography services. Contact FAA Certified Pilot Dante West for weddings, real estate, commercial properties. Call (303) 895-7849 or email for fast response.">
+    <meta name="keywords" content="contact drone photographer, drone photography quote, hire drone pilot, book aerial photography, drone service inquiry">
+    <meta name="author" content="Dante West - Spectrum Drone Services">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourwebsite.com/contact.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/contact.html">
+    <meta property="og:title" content="Contact Spectrum Drone Services - Get Your Quote">
+    <meta property="og:description" content="Get a free quote for professional drone photography. Contact FAA Certified Pilot Dante West. Call (303) 895-7849 for fast response.">
+    <meta property="og:image" content="https://images2.imgbox.com/21/af/Mbatdgrq_o.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yourwebsite.com/contact.html">
+    <meta name="twitter:title" content="Contact Spectrum Drone Services - Get Your Quote">
+    <meta name="twitter:description" content="Get a free quote for professional drone photography. Contact FAA Certified Pilot Dante West today.">
+    <meta name="twitter:image" content="https://images2.imgbox.com/21/af/Mbatdgrq_o.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("0KF4mztjC7EIe59Op");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://images2.imgbox.com/21/af/Mbatdgrq_o.png" alt="Drone Photography Services" class="company-logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="bundle.html" class="nav-link">Bundle Deal</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="contact-hero" class="hero contact-hero">
+        <div class="container">
+            <!-- Quick Quote Form -->
+            <div class="hero-quote-form">
+                <div class="form-intro">
+                    <h2 class="rainbow-text">Get Your Quote</h2>
+                    <p>Quick form • Professional service • Fast response</p>
+                </div>
+                <form class="quote-form" id="quoteForm">
+                    <div class="form-section">
+                        <h3><i class="fas fa-user"></i> Contact Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="fullName" name="fullName" placeholder="Full Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email Address *" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number (optional)">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-camera"></i> Service Details</h3>
+                        <div class="form-group">
+                            <select id="serviceType" name="serviceType" required>
+                                <option value="">What type of drone service do you need? *</option>
+                                <option value="wedding">Wedding Photography ($800+)</option>
+                                <option value="real-estate">Real Estate Photography ($300+)</option>
+                                <option value="commercial">Commercial Properties ($500+)</option>
+                                <option value="events">Special Events ($600+)</option>
+                                <option value="videography">Aerial Videography ($700+)</option>
+                                <option value="surveying">Site Surveys & Mapping ($400+)</option>
+                                <option value="other">Other (please describe below)</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="date" id="eventDate" name="eventDate" required>
+                                <label for="eventDate" class="floating-label">Event/Project Date *</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" id="eventTime" name="eventTime">
+                                <label for="eventTime" class="floating-label">Preferred Time</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-map-marker-alt"></i> Location & Duration</h3>
+                        <div class="form-group">
+                            <input type="text" id="location" name="location" placeholder="Event/Project Address *" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <select id="duration" name="duration">
+                                    <option value="">How long will you need drone services?</option>
+                                    <option value="1-hour">1 Hour</option>
+                                    <option value="2-hours">2 Hours</option>
+                                    <option value="half-day">Half Day (4 hours)</option>
+                                    <option value="full-day">Full Day (8 hours)</option>
+                                    <option value="multiple-days">Multiple Days</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select id="budget" name="budget">
+                                    <option value="">Budget Range (optional)</option>
+                                    <option value="300-500">$300 - $500</option>
+                                    <option value="500-800">$500 - $800</option>
+                                    <option value="800-1200">$800 - $1,200</option>
+                                    <option value="1200-2000">$1,200 - $2,000</option>
+                                    <option value="2000+">$2,000+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-list"></i> Project Details</h3>
+                        <div class="form-group">
+                            <textarea id="projectDetails" name="projectDetails" placeholder="Tell us about your project... What specific shots do you need? Any special requirements? Location restrictions? Number of people/properties involved?" rows="4" required></textarea>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="rushJob" id="rushJob">
+                                <span class="checkmark"></span>
+                                Rush job (less than 7 days notice - additional fees may apply)
+                            </label>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="editing" id="editing">
+                                <span class="checkmark"></span>
+                                Professional editing and color correction needed
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="usb" id="usb">
+                            <span class="checkmark"></span>
+                            USB drive included
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Get My Quote
+                    </button>
+                    
+                    <p class="form-note">
+                        <i class="fas fa-info-circle"></i>
+                        We'll respond within 24 hours with a detailed quote. For urgent requests, call <a href="tel:+13038957849">(303) 895-7849</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pay Invoice Section -->
+    <section class="pay-invoice-section">
+        <div class="container">
+            <div class="invoice-payment-box">
+                <h2>Already Have an Invoice?</h2>
+                <p>Pay your Square invoice securely online</p>
+                <a href="https://squareup.com/dashboard/invoices" 
+                   target="_blank" 
+                   class="btn btn-primary btn-large">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    Pay Your Invoice
+                </a>
+                <p class="help-text">You'll need your invoice number or payment link from the email we sent you.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Spectrum Drone Services</h3>
+                    <p>Professional drone photography and videography services by Dante West</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/17r5u9z68h/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/spectrumdroneservices?utm_source=qr&igsh=MWxrenRvOW43MWJzNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section bundle-showcase">
+                    <h4>🎉 Bundle Deal</h4>
+                    <p class="bundle-tagline">Drone Photos + Website</p>
+                    <p class="bundle-price-footer">Only $500</p>
+                    <a href="bundle.html" class="bundle-footer-link">Learn More →</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>djwisamazing123@gmail.com</p>
+                    <p>(303) 895-7849</p>
+                    <p>FAA Certified #5007308</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Spectrum Drone Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        // EmailJS Form Submission
+        document.getElementById('quoteForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const submitBtn = this.querySelector('.submit-btn');
+            const originalBtnText = submitBtn.innerHTML;
+            
+            // Disable button and show loading
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            
+            // Prepare template parameters
+            const templateParams = {
+                fullName: document.getElementById('fullName').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value || 'Not provided',
+                serviceType: document.getElementById('serviceType').value,
+                eventDate: document.getElementById('eventDate').value,
+                eventTime: document.getElementById('eventTime').value || 'Not specified',
+                location: document.getElementById('location').value,
+                duration: document.getElementById('duration').value || 'Not specified',
+                budget: document.getElementById('budget').value || 'Not specified',
+                projectDetails: document.getElementById('projectDetails').value,
+                rushJob: document.getElementById('rushJob').checked ? 'Yes' : 'No',
+                editing: document.getElementById('editing').checked ? 'Yes' : 'No',
+                usb: document.getElementById('usb').checked ? 'Yes' : 'No'
+            };
+            
+            // Send email using EmailJS
+            emailjs.send('service_febtq6c', 'template_cefnk4h', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    
+                    // Show success message
+                    submitBtn.innerHTML = '<i class="fas fa-check"></i> Quote Request Sent!';
+                    submitBtn.style.background = 'linear-gradient(135deg, #27ae60, #2ecc71)';
+                    
+                    // Reset form
+                    document.getElementById('quoteForm').reset();
+                    
+                    // Reset button after 3 seconds
+                    setTimeout(function() {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnText;
+                        submitBtn.style.background = '';
+                    }, 3000);
+                    
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    
+                    // Show error message
+                    submitBtn.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Failed to send. Please try again.';
+                    submitBtn.style.background = 'linear-gradient(135deg, #e74c3c, #c0392b)';
+                    
+                    // Reset button after 3 seconds
+                    setTimeout(function() {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnText;
+                        submitBtn.style.background = '';
+                    }, 3000);
+                });
+        });
+    </script>
+</body>
+</html>
